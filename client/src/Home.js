@@ -1,6 +1,7 @@
 
 import './App.css';
 import FirstViz from './FirstViz';
+import HarborviewXray from './HarborviewXray';
 import Header from './Header'
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       </header>
 
       <FirstViz/>
+      <HarborviewXray />
     </div>
   );
 }
