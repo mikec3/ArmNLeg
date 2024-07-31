@@ -72,12 +72,25 @@
   animation-name: myAnimationViz;
   animation-duration: 4000ms;
   animation-fill-mode: backwards;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 
 .FirstViz img {
   max-width: 80%;
   max-height: 80%;
+}
+
+.SideBySide {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  gap: 5vw;
+  margin-bottom: 5vh;
+}
+
+.SideBySide img {
+  width: 35vw;
+  height: 40vh;
 }
 
 .TextBox {

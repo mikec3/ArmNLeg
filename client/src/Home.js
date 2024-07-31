@@ -2,6 +2,7 @@
 import './App.css';
 import FirstViz from './FirstViz';
 import HarborviewXray from './HarborviewXray';
+import HeadImaging from './HeadImaging'
 import Header from './Header'
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
 
       <FirstViz/>
       <HarborviewXray />
+      <HeadImaging/>
     </div>
   );
 }

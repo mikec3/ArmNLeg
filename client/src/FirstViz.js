@@ -1,5 +1,5 @@
 import './App.css';
-import roomCompareImage from './HarborviewR&BVSAirbnb.png'
+import roomCompareImage from './img/HarborviewR&BVSAirbnb.png'
 import {Image} from 'react';
 
 function FirstViz() {

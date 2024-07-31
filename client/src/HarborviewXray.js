@@ -1,5 +1,5 @@
 import './App.css';
-import xRayImage from './HarborviewXray.png'
+import xRayImage from './img/HarborviewXray.png'
 import {Image} from 'react';
 
 function HarborviewXray() {
