@@ -1,0 +1,23 @@
+
+# Used for converting json http api call into a data object
+library(jsonlite)
+
+#convert http api call json response into a data object
+raw_data <- fromJSON('https://www.uwmedicine.org/sites/stevie/files/cms-mrf/911631806_harborview-medical-center_standardcharges.json')
+
+View(raw_data)
+
+# Create dataframe and export excel files
+
+#file summary
+file_summ <- as.data.frame(raw_data['File Summary'])
+
+View(file_summ)
+
+gross_charges <- as.data.frame(raw_data['Gross Charges'])
+
+View(gross_charges)
+
+write.csv(gross_charges, "UW_GROSS_CHARGES.csv")
+
+

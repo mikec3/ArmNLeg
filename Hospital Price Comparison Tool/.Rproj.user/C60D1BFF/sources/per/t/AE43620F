@@ -1,0 +1,28 @@
+{
+    "id": "AE43620F",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1718600290026.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "id": "2a719cd9126b402e8f705db8485ee945",
+        "name": "raw_data",
+        "title": "raw_data",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1718600290026,
+    "read_only": false,
+    "read_only_alternatives": []
+}
